@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+
+.nav{
+    display: flex;
+    cursor: pointer;
+    /* height: 50px; */
+    
+    
+}
+.nav ul {
+    display: flex;
+    /* flex-direction: column; */
+    
+    
+    
+}
+.nav li{
+    list-style: none;
+    margin: 10px;
+    margin-left: 40px;
+    margin-top: 20px;
+    
+    
+    
+}
+.nav li a{
+    text-decoration: none;
+    padding: 10px 12px ;
+    font-size: 24px;
+    color: white;
+}
+.burger{
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 35px;
+    /* width: 33px; */
+    display: none;
+
+}
+
+
+.line{
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 5px 5px;
+}
+.img1{
+    height: 70px;
+    display: inline-block;
+    width: 70px;
+    border-radius: 50px;
+    margin-left: 40px;
+}
+.background{
+    background: rgba(236, 230, 230, 0.7) url(./img/paris.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.nav2{
+    margin-left: 670px;
+    margin-top: 15px;
+}
+.nav2 input{
+    padding: 6px;
+    border-radius: 8px;
+}
+.nav2 .btn{
+    background: none;
+    color: white;
+    border: 1px  solid white;
+    font-size: 15px;
+    padding: 4px;
+    border-radius: 7px;
+}
+
+/* second section  */
+#second{
+    color: white;
+    height: 100vh;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+
+}
+#second .box1{
+    margin-top: 270px;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 30px;
+    width: 550px;
+
+}
+#second .box1 h1{
+    font-size:37px ;
+
+}
+#second .box1 p{
+    padding: 5px;
+    font-size: 17px;
+}
+.box1 button{
+    width: 100px;
+    background: none;
+    color: white;
+    border: 2px solid white;
+    padding: 7px ;
+    font-size: 14px;
+    border-radius: 8px;
+    
+}
+.btn2{
+    /* padding: 0px 10px; */
+
+}
+#second .box2 img{
+    border-radius: 200px;
+    height: 130px;
+    width: 130px;
+    margin-top: 280px;
+
+}
+
+/* third section  */
+
+ .container{
+    display: flex;
+    max-width: 1200px;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+    margin-top: 40px;
+    height: 280px;
+ }
+ .container img{
+    height: 160px;
+    width: 160px;
+    margin-top: 12px;
+    border-radius: 14px;
+ }
+.container h1{
+    font-size: 30px;
+}
+.container .para2{
+    padding: 8px 8px;
+    font-size: 20px;
+    
+
+}
+.left{
+    flex-direction: row-reverse;
+    /* box-sizing: border-box; */
+
+}
+.left h1{
+    margin-left: 16px;
+
+}
+.left .para2{
+    margin-left: 11px;
+}
+/* form section  */
+
+.form{
+    margin: auto;
+    max-width: 900px;
+}
+ input {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+margin:8px;
+}
+.form h1{
+    padding: 13px;
+    font-size: 30px;
+}
+/* input{
+    padding: 10px;
+    margin: 8px;
+} */
+textarea{
+    width: 900px;
+    margin-left: 8px;
+}
+button{
+    padding: 10px;
+    margin: 8px;
+    border-radius: 6px;
+    /* margin-left: -929px; */
+}

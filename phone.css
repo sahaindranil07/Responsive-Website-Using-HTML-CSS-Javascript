@@ -1,0 +1,89 @@
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+.nav{
+    flex-direction: column;
+    transition: all .5s ease-in-out;
+    height: 400px;
+
+}
+.nav img{
+    display: block;
+   margin: auto;
+}
+.nav ul{
+    flex-direction: column;
+    align-items: center;
+}
+.burger{
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 15px;
+
+}
+
+.line{
+    width: 33%;
+    background-color: white;
+    height: 4px;
+    margin: 3px 3px;
+}
+.nav2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+    margin: auto;
+}
+.nav2 input{
+    /* margin: auto; */
+    width: 100%;
+    margin-left:40px;
+    
+}
+.nav2 .btn{
+    color: red;
+    margin-left:40px;
+
+
+}
+.burger{
+    display: block;
+}
+.h-nav{
+    height: 72px;
+}
+.v{
+    opacity: 0;
+}
+.container{
+    flex-flow:  wrap ;
+   /* flex-direction: column; */
+   align-items: stretch;
+   /* border: 2px solid red; */
+   text-align: center;
+   height: auto;
+}
+
+.form{
+    /* width: 600px; */
+    display: flex; 
+    flex-direction: column;
+    flex-wrap:column wrap; 
+    max-width: auto;
+    align-items: center;
+    justify-content: center;
+}
+textarea{
+    /* width: 600px; */
+}
+.form input{
+    /* width: 100%; */
+}
